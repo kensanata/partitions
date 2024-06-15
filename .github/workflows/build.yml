@@ -1,8 +1,6 @@
 name: Generate Lilypond music sheets
 on:
   push:
-    branches:
-      - gh-pages
 jobs:
   build_sheets:
     runs-on: ubuntu-latest
