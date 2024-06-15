@@ -5,3 +5,9 @@ repos:
   - id: check-yaml
   - id: end-of-file-fixer
   - id: trailing-whitespace
+
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.13.0
+  hooks:
+  - id: pretty-format-toml
+  - id: pretty-format-yaml
