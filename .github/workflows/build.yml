@@ -11,18 +11,9 @@ jobs:
       uses: holgerpeters/lilypond-github-action@main
       with:
         path: ./boismortier/pb278
-#      - name: Push Local Changes
-#        run: |
-#          git config --local user.email "${{ secrets.GIT_USERNAME }}"
-#          git config --local user.name "${{ secrets.GIT_EMAIL }}"
-#          mkdir -p ${{github.workspace}}/docs/
-#          mv -f *.midi ${{github.workspace}}/docs/
-#          mv -f *.pdf ${{github.workspace}}/docs/
-#          mv -f *.png ${{github.workspace}}/docs/
-#          git add ${{github.workspace}}/docs/
-#          git commit -m "Add changes" -a
-#      - name: Push changes
-#        uses: ad-m/github-push-action@main
-#        with:
-#          branch: gh-pages
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Upload PDFs
+      uses: actions/upload-artifact@v4
+      with:
+        name: Releases
+        path: '**/*.pdf'
+
