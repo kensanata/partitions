@@ -13,7 +13,7 @@ PROJECT3=contralto2
 PROJECT4=c-partition
 PROJECT5=passacailles
 
-all: notizen.pdf check pdfs delivery
+all: check pdfs delivery
 
 
 out:
