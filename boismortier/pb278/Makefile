@@ -2,18 +2,17 @@ OUTPUT_DIR=out
 DELIVERY_DIR=delivery
 mkfile_path := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing
-LILYPOND_CMD=lilypond -I$(current_dir) $(LILYPOND_OPTIONS)
+current_dir:=$(shell pwd)
 
-# -dno-point-and-click
+LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing -dno-point-and-click
+LILYPOND_CMD=lilypond -I"$(current_dir)" -I"$(current_dir)/../../util" $(LILYPOND_OPTIONS)
 
 PROJECT1=boismortier-bp278-ca1
 PROJECT2=boismortier-bp278-partition
 PROJECT3=boismortier-bp278-ca2
 PROJECT4=boismortier-bp278-passacailles
 
-all: check pdfs delivery
-
+all: pdfs delivery
 
 out:
 	mkdir -p out
@@ -40,12 +39,7 @@ clean:
 	@rm -f $(OUTPUT_DIR)/$(PROJECT3)*
 	@rm -f $(OUTPUT_DIR)/$(PROJECT4)*
 
-
-check:
-	echo "done"
-
-.PHONY: parts pdfs clean all check delivery
-
+.PHONY: parts pdfs clean all delivery
 
 notizen.pdf: notizen.tex notes.cls
 	latexmk --shell-escape --pdflua notizen.tex
