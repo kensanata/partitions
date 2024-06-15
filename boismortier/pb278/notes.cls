@@ -12,9 +12,9 @@
 %\RequirePackage{booktabs}
 %\RequirePackage{amsthm}
 %\RequirePackage[nogroupskip]{glossaries}
-\setromanfont[Path=/Users/holger/Library/Fonts/,
+\setromanfont[Path=../../fonts,
    BoldFont       = *-Bold,
    UprightFont    = *-Regular,
    ItalicFont     = *-Italic,
    BoldItalicFont = *-BoldItalic,
-   Extension =.ttf]{GentiumPlus}
+   Extension =.otf]{LibertinusSerif}

@@ -2,8 +2,10 @@ OUTPUT_DIR=out
 DELIVERY_DIR=delivery
 mkfile_path := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
+current_dir:=$(shell pwd)
+
 LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing
-LILYPOND_CMD=lilypond -I$(current_dir) $(LILYPOND_OPTIONS)
+LILYPOND_CMD=lilypond -I"$(current_dir)" -I"$(current_dir)/../../util" $(LILYPOND_OPTIONS)
 
 # -dno-point-and-click
 
