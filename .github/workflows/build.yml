@@ -10,7 +10,7 @@ jobs:
     - name: Generate PDF music sheets
       uses: holgerpeters/lilypond-github-action@main
       with:
-        args: boismortier/pb278
+        path: ./boismortier/pb278
 #      - name: Push Local Changes
 #        run: |
 #          git config --local user.email "${{ secrets.GIT_USERNAME }}"
