@@ -10,6 +10,6 @@
     r2 |
     g,4 c8 b, a,4\battement g,4 |
     d4 g,8 a, b,4 b, |
-    c4\tremblement b,8 d8 g4 fis\battement | g2 
+    c4\tremblement b,8 d8 g4 fis\battement | g2
   }
 }

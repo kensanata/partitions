@@ -54,5 +54,3 @@ check:
 
 notizen.pdf: notizen.tex notes.cls
 	latexmk --shell-escape --pdflua notizen.tex
-
-

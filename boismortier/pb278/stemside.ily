@@ -15,4 +15,3 @@ noteSide = \dynamicDirection #NOTESIDE \etc
 
 battement =\noteSide\prall
 tremblement =\noteSide -+
-
