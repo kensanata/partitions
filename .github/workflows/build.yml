@@ -2,7 +2,7 @@ name: Generate Lilypond music sheets
 on:
   push:
 jobs:
-  build_sheets:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Source
@@ -16,4 +16,34 @@ jobs:
       with:
         name: Releases
         path: '**/*.pdf'
+  publish:
+    runs-on: ubuntu-latest
+    needs: [build]
+    # if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+    - name: download release artefact
+      uses: actions/download-artifact@master
+      with:
+        name: dist
+
+    - name: Debug
+      run: |
+        find . -iname "*.pdf"
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1.1.4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          **/*.pdf
 
