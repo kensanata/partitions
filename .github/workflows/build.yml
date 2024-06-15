@@ -8,7 +8,7 @@ jobs:
       - name: Checkout Source
         uses: actions/checkout@v3
       - name: Generate PDF music sheets
-        uses: holgerpeters/lilypond-github-action@master
+        uses: holgerpeters/lilypond-github-action@main
         with:
             args: boismortier/pb278
 #      - name: Push Local Changes
@@ -22,7 +22,7 @@ jobs:
 #          git add ${{github.workspace}}/docs/
 #          git commit -m "Add changes" -a
 #      - name: Push changes
-#        uses: ad-m/github-push-action@master
+#        uses: ad-m/github-push-action@main
 #        with:
 #          branch: gh-pages
 #          github_token: ${{ secrets.GITHUB_TOKEN }}
