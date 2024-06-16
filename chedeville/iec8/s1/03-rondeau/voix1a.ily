@@ -4,8 +4,8 @@
 \key c \major
 \transpose c c'' {
   \repeat segno 2 {
-    \partial 2 c4 g |
     \repeat volta 2 {
+    \partial 2 c4 g |
       g4 a g f                         |
       e\tremblement d8 e f4 e          |
       d4 c b,4\tremblement c           |

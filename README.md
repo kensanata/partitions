@@ -10,8 +10,9 @@ Full scores of recorder music.
 baroque.
 
 #### Six Suites a deux musettes
-Suites for the french bagpipe ([musette]) which seem to nicely match the range of
-the alto recorder.
+
+Suites for the french bagpipe ([musette]) which seem to nicely match the range
+of the alto recorder.
 
 ##### Deuxième Suite a deux musettes (PB 278; op.11 n°2)
 
@@ -29,17 +30,30 @@ Sonatas for the baroque traverso.
 
 ### Esprit Philippe Chédeville
 #### Neuvieme Recueil de pieces choisies
+
 * 🚧 [musette 1 french][iec8-m1-french]
 * 🚧 [musette 1 treble][iec8-m1-treble]
 
 ##### Première suite (IEC 8)
 
-State of proofreading:
-* ✅  Ouverture, Musette 1
+State of proofreading (M1):
+
+* 💡 Ouverture, Musette 1
+* 💡 Musette
+* 💡 Rondeau
+* 💡 1er Menuet
+* 💡 2e Menuet
 
 ##### Deuxième suite (IEC 8)
 
-State of proofreading: 🚧
+State of proofreading (M1): 
+
+* 💡 Rondeau
+* 💡 Musette
+* 🚧 La Vilageois
+* 💡 Sarabande
+* 💡 Bourree
+* 💡 Menuet
 
 [boismortier]: <https://en.wikipedia.org/wiki/Joseph_Bodin_de_Boismortier>
 [iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/chedeville-iec8-m1-french.pdf>

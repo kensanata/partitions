@@ -19,11 +19,11 @@
     e4 f                                  |
     g c e f                               |
     g2 g4 a                               |
-    g4 a8 b c4 g                          |
+    g4 a8 b c'4 g                          |
     e\tremblement c e f                   |
     g c e f                               |
-    g2 g4 f                               |
-    g4 a8 b c4 g                          |
+    g2 g4 a                               |
+    g4 a8 b c'4 g                          |
     e2\tremblement c4 b,4\tremblement     |
     c4 g, g, a,8 b,                       |
     c2 c4 b,\tremblement                  |
@@ -47,6 +47,7 @@
     c4 d e f                              |
     e\tremblement d c b,4\tremblement    |
     c4 g, g, a,8 b,                       |
+    c2 c4 d |
     e8 g f e d4.\tremblement c8           |
     c2
   }
