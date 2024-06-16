@@ -29,10 +29,17 @@ Sonatas for the baroque traverso.
 
 ### Esprit Philippe Chédeville
 #### Neuvieme Recueil de pieces choisies
-##### Première suite (IEC 8)
 * 🚧 [musette 1 french][iec8-m1-french]
 * 🚧 [musette 1 treble][iec8-m1-treble]
 
+##### Première suite (IEC 8)
+
+State of proofreading:
+* ✅  Ouverture, Musette 1
+
+##### Deuxième suite (IEC 8)
+
+State of proofreading: 🚧
 
 [boismortier]: <https://en.wikipedia.org/wiki/Joseph_Bodin_de_Boismortier>
 [iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/chedeville-iec8-m1-french.pdf>

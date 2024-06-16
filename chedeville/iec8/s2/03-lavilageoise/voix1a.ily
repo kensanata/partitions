@@ -1,4 +1,5 @@
 \time 6/8
+\set Score.fineText = "Fin"
 \key c \major
 \transpose c c'' {
   \repeat segno 2 {

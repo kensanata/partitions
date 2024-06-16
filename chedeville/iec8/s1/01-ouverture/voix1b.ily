@@ -15,7 +15,7 @@
   c4 c4. d8                    |
   b,4.\tremblement c8 d4       |
   e4 fis g                     |
-  fis4\tremblement d4 g~       | % TODO
+  fis4\tremblement d4 g~       | %
   g8 a8 fis4.\tremblement g8   |
   g2 r4                        |
   r4 g4 g                      |
@@ -23,7 +23,7 @@
   f4 f4. g8                    |
   e4.\tremblement f8 g4        |
   a8 g f e d c                 |
-  b,4 g, g                     |
+  b,4\tremblement  g, g        |
   a d4.\tremblement c8         |
   c4 c c                       |
   c4 bes,8 a, bes, c           |
@@ -32,6 +32,6 @@
   b,4\tremblement g g          |
   g f8 e f g                   |
   e4.\tremblement f8 g4        |
-  f8 e d4.\tremblement c8       |
+  f8 e d4.\tremblement c8      |
   c2. \fine
 }

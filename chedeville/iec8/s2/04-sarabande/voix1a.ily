@@ -24,4 +24,5 @@
   c'4. e8 f (g16 a)                                        |
   d8 e8 d4.\tremblement c8                                 |
   c2.
+  \fine
 }

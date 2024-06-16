@@ -31,5 +31,5 @@
   d8 es f4 as4
   g4. f8 es d                |
   es8 f d4.\tremblement c8   |
-  c2.                       |
+  c2.                       \fine
 }
