@@ -18,7 +18,7 @@
     b,8 d e fis g2 ~                              |
     g8 e fis g a2 ~                               |
     a8 fis8 g a b a g fis                         |
-    e fis g a  fis4.-+ g8                           |
+    e fis g a  fis4.\tremblement g8                           |
     g2.
   }
 }
