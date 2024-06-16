@@ -27,8 +27,16 @@ Sonatas for the baroque traverso.
 * 🚧 [flûte 1 french][bp223-fl1-french]
 * 🚧 [flûte 1 treble][bp223-fl1-treble]
 
+### Esprit Philippe Chédeville
+#### Neuvieme Recueil de pieces choisies
+##### Première suite (IEC 8)
+* 🚧 [musette 1 french][iec8-m1-french]
+* 🚧 [musette 1 treble][iec8-m1-treble]
+
 
 [boismortier]: <https://en.wikipedia.org/wiki/Joseph_Bodin_de_Boismortier>
+[iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16/boismortier-iec8-m1-french.pdf>
+[iec8-m1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16/boismortier-iec8-m1-treble.pdf>
 [bp223-fl1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16/boismortier-bp223-ca1-french.pdf>
 [bp223-fl1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16/boismortier-bp223-ca1-treble.pdf>
 [bp278-ca1]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-15/boismortier-bp278-ca1.pdf>
