@@ -5,7 +5,7 @@
   \include "layout.ily"
   \header {
     \include "titre.ily"
-    instrument = "Contralto 1"
+    instrument = "Musette 1"
   }
   \include "01-prelude/contralto1.ily"
   \include "02-rondeau/contralto1.ily"
