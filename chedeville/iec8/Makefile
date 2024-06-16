@@ -26,7 +26,7 @@ $(OUTPUT_DIR)/%.pdf: %.ly $(INCLUDES)
 	$(LILYPOND_CMD) -o $(basename $@) $<
 
 clean:
-	@rm -f $(OUTPUT_DIR)
+	@rm -rf $(OUTPUT_DIR)
 
 .PHONY: clean all
 

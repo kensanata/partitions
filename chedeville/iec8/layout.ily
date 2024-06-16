@@ -25,6 +25,7 @@
         \null
 	\center-column {
 	  \fontsize #4 \bold \fromproperty #'header:title
+	  \fontsize #2 \bold \fromproperty #'header:subtitle
 	  \fromproperty #'header:instrument
 	  " "
 	}

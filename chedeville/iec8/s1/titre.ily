@@ -1,4 +1,5 @@
-title ="Neuvième Recueil de pieces choisies"
+subtitle ="Neuvième Recueil de pieces choisies"
+title ="Premiere Suitte"
 composer = "Esprit Philippe Chédeville"
 copyright = "domaine public"
 opus = "IEC 8"

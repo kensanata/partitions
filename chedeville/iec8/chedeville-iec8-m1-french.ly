@@ -2,15 +2,17 @@
 \include "stemside.ily"
 
 \book {
-  \include "layout.ily"
-  \header {
-    \include "titre.ily"
-    instrument = "Flûte 1"
+  \bookpart {
+    \include "layout.ily"
+    \header {
+      \include "s1/titre.ily"
+      instrument = "Flûte 1"
+    }
+    \include "s1/01-ouverture/flute1-french.ily"
+    \include "s1/02-musette/flute1-french.ily"
+    \include "s1/03-rondeau/flute1-french.ily"
+    \include "s1/04-menuet-a/flute1-french.ily"
+    \include "s1/05-menuet-b/flute1-french.ily"
   }
-  \include "01-ouverture/flute1-french.ily"
-  \include "02-musette/flute1-french.ily"
-  \include "03-rondeau/flute1-french.ily"
-  \include "04-menuet-a/flute1-french.ily"
-  \include "05-menuet-b/flute1-french.ily"
 }
 % vim:sw=2:ts=2:et:
