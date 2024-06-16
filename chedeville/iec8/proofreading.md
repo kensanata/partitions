@@ -33,9 +33,11 @@ Initial screen completed.
 * Measure 24: `g` to `b`
 * Measure 25: `c` to `c'`
 
-#### La Vilageous
+#### La Vilageois
 
-not proofread
+* Measure 8: `c4. c4.` to `c4. ~ c4.`
+* Measure 14-15: added missing measure
+* Measure 17: slur instead of legato bow.
 
 #### Sarabande
 ok

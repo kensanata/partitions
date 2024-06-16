@@ -46,7 +46,7 @@ State of proofreading (M1):
 
 ##### Deuxième suite (IEC 8)
 
-State of proofreading (M1): 
+State of proofreading (M1):
 
 * 💡 Rondeau
 * 💡 Musette
