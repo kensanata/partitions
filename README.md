@@ -35,8 +35,8 @@ Sonatas for the baroque traverso.
 
 
 [boismortier]: <https://en.wikipedia.org/wiki/Joseph_Bodin_de_Boismortier>
-[iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/boismortier-iec8-m1-french.pdf>
-[iec8-m1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/boismortier-iec8-m1-treble.pdf>
+[iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/chedeville-iec8-m1-french.pdf>
+[iec8-m1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/chedeville-iec8-m1-treble.pdf>
 [bp223-fl1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/boismortier-bp223-ca1-french.pdf>
 [bp223-fl1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/boismortier-bp223-ca1-treble.pdf>
 [bp278-ca1]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-a/boismortier-bp278-ca1.pdf>
