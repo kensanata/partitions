@@ -7,14 +7,18 @@ jobs:
     steps:
     - name: Checkout Source
       uses: actions/checkout@v3
-    - name: Generate PDF music sheets
+    - name: Generate PDF music sheets for PB278
       uses: holgerpeters/lilypond-github-action@main
       with:
         path: ./boismortier/pb278
-    - name: Generate PDF music sheets
+    - name: Generate PDF music sheets for PB223
       uses: holgerpeters/lilypond-github-action@main
       with:
         path: ./boismortier/pb223
+    - name: Generate PDF music sheets for IEC8
+      uses: holgerpeters/lilypond-github-action@main
+      with:
+        path: ./chedeville/iec8
     - name: Upload PDFs
       uses: actions/upload-artifact@v4
       with:
@@ -31,11 +35,6 @@ jobs:
       uses: actions/download-artifact@master
       with:
         name: dist
-
-    - name: Debug
-      run: |
-        find . -iname "*.pdf"
-
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
