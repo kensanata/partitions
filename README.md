@@ -24,10 +24,13 @@ Sonatas for the baroque traverso.
 
 ##### Première sonate (PB 223; op. 2 n°1)
 
-* 🚧 flûte 1
+* 🚧 [flûte 1 french][bp223-fl1-french]
+* 🚧 [flûte 1 treble][bp223-fl1-treble]
 
 
 [boismortier]: <https://en.wikipedia.org/wiki/Joseph_Bodin_de_Boismortier>
+[bp223-fl1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16/boismortier-bp223-ca1-french.pdf>
+[bp223-fl1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16/boismortier-bp223-ca1-treble.pdf>
 [bp278-ca1]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-15/boismortier-bp278-ca1.pdf>
 [bp278-ca2]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-15/boismortier-bp278-ca2.pdf>
 [bp278-partition]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-15/boismortier-bp278-partition.pdf>
