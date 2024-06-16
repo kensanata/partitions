@@ -22,7 +22,7 @@ the alto recorder.
 #### Six Sonates à 2 flûtes traversières
 Sonatas for the baroque traverso.
 
-##### Première sonateop (PB 223; op. 2 n°1)
+##### Première sonate (PB 223; op. 2 n°1)
 
 * 🚧 flûte 1
 
