@@ -12,5 +12,7 @@
   >>
   }
   \layout { }
-  \midi { }
+  \midi {
+    \tempo 4 = 120
+  }
 }

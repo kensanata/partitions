@@ -6,12 +6,15 @@
     midiInstrument = "recorder"
     \consists "Ambitus_engraver"
   } {
-    << {
-      \clef french
-      {\include "voix1a.ily" }
-    }
-  >>
+    <<
+      {
+	\clef french
+	{\include "voix1a.ily" }
+      }
+    >>
   }
   \layout { }
-  \midi { }
+  \midi {
+    \tempo 4 = 120
+  }
 }

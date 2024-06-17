@@ -6,10 +6,13 @@
     midiInstrument = "recorder"
     \consists "Ambitus_engraver"
   } {
-    <<{ \clef treble
-    {\include "voix1a.ily" }
-    {\include "voix1b.ily" }}
-  >>
+    <<
+      {
+	\clef treble
+	{\include "voix1a.ily" }
+	{\include "voix1b.ily" }
+      }
+    >>
   }
   \layout { }
   \midi { }
