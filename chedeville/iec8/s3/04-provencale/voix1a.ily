@@ -52,6 +52,6 @@
     c4. d8 b,4.\tremblement a,16 b, |
   } \alternative {
     {c1}
-    {c1}
+    {c1\fine}
   }
 }
