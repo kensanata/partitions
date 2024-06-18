@@ -10,4 +10,3 @@
   g4 f e d e f e d c b, a, |
   g,4 c b,\tre
 }
-
