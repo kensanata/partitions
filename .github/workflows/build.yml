@@ -1,4 +1,4 @@
-name: Generate Lilypond music sheets
+name: Generate Lilypond sheet music
 on:
   push:
 jobs:
