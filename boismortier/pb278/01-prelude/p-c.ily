@@ -14,8 +14,8 @@
 	    \include "global.ily"
 	    \include "voix1.ily"
 	  }
-	>>
-      }
+	}
+      >>
       \new Staff \with {
 	midiInstrument = "recorder"
       }
@@ -27,8 +27,8 @@
 	  }
 	>>
       }
-    >>
-  }
+    }
+  >>
   \layout { }
   \midi {
     \tempo 2 = 50
