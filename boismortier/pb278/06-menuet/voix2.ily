@@ -23,14 +23,14 @@
       b,2 c4                |
       d4 b, c               |
       d4. e8 fis g          |
-      fis4.\tremblement e8 d4         |
+      fis4.\tre e8 d4         |
       b,8 a, b, c b,4       |
       b,8 a, b, c b,4       |
       c8 b, c d b, c      |
       a,4 fis8 g a fis      |
       g4 fis\battement e        |
       d c b,                |
-      c4 a,2\tremblement              |
+      c4 a,2\tre              |
       g,2.
     }
     \fine \break

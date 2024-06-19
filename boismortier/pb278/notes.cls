@@ -12,7 +12,7 @@
 %\RequirePackage{booktabs}
 %\RequirePackage{amsthm}
 %\RequirePackage[nogroupskip]{glossaries}
-\setromanfont[Path=../../fonts,
+\setromanfont[Path=../../fonts/,
    BoldFont       = *-Bold,
    UprightFont    = *-Regular,
    ItalicFont     = *-Italic,

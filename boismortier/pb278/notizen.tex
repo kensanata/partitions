@@ -103,4 +103,40 @@ Dieses St"uck ist in den historischen Noten auf IMSLP mit einem Vorzeichen notie
 \section{Brunette}
 Eine \textit{brunette} ist eine Liedform die sich im 17. / 18. Jahrhundert in
 Frankreich gewisser Beliebtheit erfreute.
+\appendix
+\section{Triller}
+
+\begin{center}
+\begin{lilypond}
+\new StaffGroup
+	<<
+	\new Staff \transpose c c''{\clef "french" d2^+ c | }
+	\new Staff \transpose c c''{\clef "french" e16 d e d e d e d c2}
+	>>
+\end{lilypond}
+\end{center}
+\subsection{Liaison}
+\begin{center}
+\begin{lilypond}
+\new StaffGroup
+	<<
+	\new Staff \transpose c c''{\clef "french" d4.^+  c8 c2 | }
+	\new Staff \transpose c c''{\clef "french" e4 ~ e32 d e d e d ~ d16. c32 c2}
+	>>
+\end{lilypond}
+\end{center}
+\subsection{Tour de Gosier}
+\subsection{Point d'arrêt}
+
+\subsection{Cadence apuyée}
+Preparation held about half the time
+\begin{center}
+\begin{lilypond}
+\new StaffGroup
+	<<
+	\new Staff \transpose c c''{\clef "french" d4.^+  c8 c2 | }
+	\new Staff \transpose c c''{\clef "french" e8 ~ e16 d e d c8 c2}
+	>>
+\end{lilypond}
+\end{center}
 \end{document}
