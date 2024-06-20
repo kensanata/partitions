@@ -5,7 +5,7 @@
   \bookpart {
     \include "layout.ily"
     \header {
-      \include "s3/titre.ily"
+      \include "s4/titre.ily"
       instrument = "Musette 1"
     }
     \include "s4/01-rondeau/m1-french.ily"
