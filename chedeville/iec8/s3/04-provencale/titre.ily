@@ -1,1 +1,1 @@
-piece = "Provencale"
+piece = "Provençal"
