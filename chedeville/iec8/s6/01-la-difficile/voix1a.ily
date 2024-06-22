@@ -63,10 +63,9 @@
       d' f e d e g a b          |
       c'8 e d e c'8 e d e       |
       c' e d c d4 c' |
-      e\tre d8 e f e d e | 
+      e\tre d8 e f e d e |
       c2.
     }
 
 
 }
-
